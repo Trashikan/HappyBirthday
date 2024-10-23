@@ -8,7 +8,7 @@ async function getCurrentYear() {
     return currentDateTime.getFullYear();
   } catch (error) {
     console.error('Error fetching the current year:', error);
-    alert("Give access to verify year. (press OK don't worry)");
+    alert("Give access to verify year. (press OK, don't worry <3)");
     return new Date().getFullYear(); // Fallback to local time
   }
 }
